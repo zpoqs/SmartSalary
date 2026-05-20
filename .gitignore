@@ -1,0 +1,46 @@
+# 智薪管理系统 - Git忽略配置
+
+# API Key 等敏感配置，绝对不提交
+config.ini
+*.env
+
+# ===== Qt 构建产物 =====
+build/
+*.pro.user
+*.pro.user.*
+moc_*
+qrc_*
+ui_*
+Makefile
+Makefile.*
+object_script.*
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.app
+
+# ===== 编译缓存 =====
+.qmake.stash
+.qmake.cache
+__pycache__/
+*.pyc
+
+# ===== 数据与压缩包文件 =====
+*.db
+*.csv
+*.zip
+
+# ===== IDE 配置 =====
+.vscode/
+.idea/
+*.user
+*.swp
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
